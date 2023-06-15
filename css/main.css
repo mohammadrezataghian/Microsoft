@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-20{
+    top: 20px;
+}
+.mamad:hover{
+    /* border-bottom: 2px solid black; */
+    text-decoration: underline;
+}
+.rotate-180{
+    transform: rotatey(-180deg);
+}
+.bg-mamad{
+    background-color: #F2F2F2;
+}
+.ms-6{
+    margin-left: 20%;
+}
+.bg-pmamad{
+    background-color: #E6E6E6;
+}
+.border-bottom-mamad{   
+    border-bottom: 2px solid black;
+}
+.h542{
+    height: 542px;
+}
+.topfuck{
+    top: 20%;
+}
+.leftfuck{
+    left: 10%;
+}
+@font-face {
+    font-family: microsoft;
+    src: url(../fonts/SegoeUI-Semibold.eot);
+    src: url(../fonts/SegoeUI-Semibold.ttf);
+    src: url(../fonts/SegoeUI-Semibold.woff);
+    src: url(../fonts/SegoeUI-Semibold.woff2);
+}
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: microsoft; */
+}
+@media screen and (min-width:1400px){
+    .w-110-xxl{
+        width: 110px;
+    }
+    .h-24-xxl{
+        height: 24px;
+    } 
+    .p8{
+        padding: 8px !important;
+    }
+    .fs-12{
+        font-size: 12px !important;
+    }   
+}
+@media screen and (min-width:1200px) and (max-width:1400px){
+    .w-110-xxl{
+        width: 110px;
+    }
+    .h-24-xxl{
+        height: 24px;
+    }
+    .p8{
+        padding: 8px !important;
+    }
+    .fs-12{
+        font-size: 12px !important;
+    }
+}
+@media screen and (min-width:998px) and (max-width:1200px){
+    .w-110-xxl{
+        width: 110px;
+    }
+    .h-24-xxl{
+        height: 24px;
+    }
+    .p8{
+        padding: 8px !important;
+    }
+    .fs-12{
+        font-size: 12px !important;
+    }
+}
+@media screen and (min-width:768px) and (max-width:998px){
+    .w-110-xxl{
+        width: 110px;
+    }
+    .h-24-xxl{
+        height: 24px;
+    }
+    .yoho{
+        padding: 16px;
+        padding-bottom: unset;
+    }
+    .fs-12{
+        font-size: 11px !important;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px){
+    .yoho{
+        padding: 16px;
+        padding-bottom: unset;
+    }
+    .fs-12{
+        font-size: 11px !important;
+    }
+}
+@media screen and (max-width:576px){
+    .yoho{
+        padding: 16px;
+        padding-bottom: unset;
+    }
+    .fs-12{
+        font-size: 8px !important;
+    }
+}
