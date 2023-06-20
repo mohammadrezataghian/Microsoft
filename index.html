@@ -235,7 +235,7 @@
   </nav>
   <!-- Navbar -->
         </div>
-        <div class="w-100 h542 ">
+        <div class="w-100 h542 overflow-hidden">
           <div id="carouselExampleIndicators" class="carousel slide container-fluid p-0 m-0 h-100" data-mdb-ride="carousel">
             <div class="carousel-indicators">
               <button
@@ -261,27 +261,39 @@
                 class="bg-info"
               ></button> -->
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner w-100 h-100">
               <div class="carousel-item active position-relative">
-                <img src="./images/2.jpg" class="d-block w-100 img-fluid" alt="Wild Landscape"/>
-                <div class=" position-absolute top-20 leftfuck topfuck" style="width: 570px; height: 316px;">
+                <picture class="d-block w-100 img-fluid">
+                  <source srcset="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Test-Surface-Pro-9-Platinum-Attract:VP5-1920x600" media="(min-width: 1400px)">
+                  <source srcset="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Test-Surface-Pro-9-Platinum-Attract:VP4-1399x600" media="(min-width: 1084px)">
+                  <source srcset="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Test-Surface-Pro-9-Platinum-Attract:VP3-1083x600" media="(min-width: 860px)">
+                  <source srcset="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Test-Surface-Pro-9-Platinum-Attract:VP2-859x540" media="(min-width: 540px)">
+                  <img id="img-highlight-uid6a3b" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Test-Surface-Pro-9-Platinum-Attract:VP1-539x440" class="card-img w-100" alt="A platinum Surface Pro 9 with a type cover and Surface slim pen 2.">
+              </picture>
+                <div class=" position-absolute top-20 leftfuck topfuck w570h316" >
                   <div class="card w-100 h-100">
                     <div class="card-body">
-                      <h5 class="card-title fs-1">Save up to $300 on new Surface Pro 9</h5>
-                      <p class="card-text">The tablet flexibility you want and the laptop performance you need—all in one ultra-portable device. Offer ends 6/25.</p>
-                      <button type="button" class="btn btn-primary fs-6 rounded-0">Shop Surface Pro 9</button>
+                      <h5 class="card-title fontsizeh1">Save up to $300 on new Surface Pro 9</h5>
+                      <p class="card-text fontsizep">The tablet flexibility you want and the laptop performance you need—all in one ultra-portable device. Offer ends 6/25.</p>
+                      <button type="button" class="btn btn-primary fontsizebut rounded-0">Shop Surface Pro 9</button>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="./images/3.jpg" class="d-block w-100 img-fluid" alt="Camera"/>
-                <div class=" position-absolute top-20 leftfuck topfuck" style="width: 570px; height: 316px;">
+                <picture class="d-block w-100 img-fluid"  alt="Wild Landscape">
+                  <source srcset="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce-Word-Merch:VP5-1920x600" media="(min-width: 1400px)">
+                  <source srcset="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce-Word-Merch:VP4-1399x600" media="(min-width: 1084px)">
+                  <source srcset="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce-Word-Merch:VP3-1083x600" media="(min-width: 860px)">
+                  <source srcset="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce-Word-Merch:VP2-859x540" media="(min-width: 540px)">
+                  <img id="img-highlight-uidb245" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce-Word-Merch:VP1-539x440" class="card-img w-100" alt="Icons from the Microsoft 365 suite of apps such as Teams, Word, Outlook, and more.">
+              </picture>
+                <div class=" position-absolute top-20 leftfuck topfuck w570h316 bgwhite" ">
                   <div class="card w-100 h-100 bg-transparent shadow-0">
                     <div class="card-body">
-                      <h5 class="card-title fs-1">Microsoft 365</h5>
-                      <p class="card-text">Turn your ideas into reality, stay safer online and off, and focus on what matters most with Microsoft 365 apps</p>
-                      <button type="button" class="btn btn-primary fs-6 rounded-0">For 1 person</button> &nbsp; &nbsp; <span class="fs-6 my-2 d-inline-block mamad">For up to 6 people <i class="bi bi-chevron-right"></i></span>
+                      <h5 class="card-title fontsizeh1">Microsoft 365</h5>
+                      <p class="card-text fontsizep">Turn your ideas into reality, stay safer online and off, and focus on what matters most with Microsoft 365 apps</p>
+                      <button type="button" class="btn btn-primary fontsizebut rounded-0">For 1 person</button> &nbsp; &nbsp; <span class="fontsizep my-2 d-inline-block mamad">For up to 6 people <i class="bi bi-chevron-right"></i></span>
                     </div>
                   </div>
                 </div>
@@ -300,9 +312,215 @@
             </button>
           </div>
         </div>
-        <div class="w-100 bg-black h542"></div>
-    
 
+        <!-- start after slider -->
+        <div class=" afterslider col-10 offset-1 h-auto d-flex justify-content-center flex-wrap my-5">
+          <div class="w154h72 mx-4 my-3 d-flex align-items-center flex-column gap-2">
+            <div class="w48h48 "></div>
+            <a href="" class="fw-bold text-decoration-underline colorblue">
+              Shop Surface devices
+          </a>
+          </div>
+          <div class="w154h72 mx-4 my-3 d-flex align-items-center flex-column gap-2 colorblue">
+            <div class="w48h48"></div>
+            <a href="" class="fw-bold text-decoration-underline">
+              Choose your Microsoft 365
+          </a>
+          </div>
+          <div class="w154h72 mx-4 my-3 d-flex align-items-center flex-column gap-2 colorblue">
+            <div class="w48h48"></div>
+            <a href="" class="fw-bold text-decoration-underline">
+              Buy Xbox games and consoles
+          </a>
+          </div>
+          <div class="w154h72 mx-4 my-3 d-flex align-items-center flex-column gap-2 colorblue">
+            <div class="w48h48"></div>
+            <a href="" class="fw-bold text-decoration-underline">
+              Get Windows 11
+          </a>
+          </div>
+          <div class="w154h72 mx-4 my-3 d-flex align-items-center flex-column gap-2 colorblue">
+            <div class="w48h48"></div>
+            <a href="" class="fw-bold text-decoration-underline">
+              Shop for accessories
+          </a>
+          </div>
+          <div class="w154h72 mx-4 my-3 d-flex align-items-center flex-column gap-2 colorblue">
+            <div class="w48h48"></div>
+            <a href="" class="fw-bold text-decoration-underline">
+              Shop Business
+          </a>
+          </div>
+        </div>
+    <!-- end after slider -->
+
+    <!-- start div card -->
+        <div class="w-100 p-3 p-md-4 h-auto d-flex flex-wrap flex-lg-nowrap justify-content-evenly gap-4">
+          <div class="card rounded-0 fb322px flex-grow-1 flex-shrink-1 shadow-0 ">
+            <img src="./images/9.webp" class="card-img-top" alt="Chicago Skyscrapers"/>
+            <div class="card-body">
+              <h5 class="card-title">
+                Xbox Series X
+            </h5>
+              <p class="card-text"> The fastest, most powerful Xbox ever. </p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link mamad">
+                Shop Xbox Series X&nbsp;<i class="bi bi-chevron-right fs-12"></i>
+            </a>
+            </div>
+          </div>
+          <div class="card rounded-0 fb322px flex-grow-1 flex-shrink-1 shadow-0" >
+            <img src="./images/10.webp" class="card-img-top" alt="Chicago Skyscrapers"/>
+            <div class="card-body">
+              <h5 class="card-title">
+                Up to $150 off select Surface Laptop Go 2
+            </h5>
+              <p class="card-text"> Work and play anywhere with the perfect balance of style, portability, and performance. Offer ends 6/25. </p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link mamad">
+                Shop Surface Laptop Go 2&nbsp;<i class="bi bi-chevron-right fs-12"></i>
+            </a>
+            </div>
+          </div>
+          <div class="card rounded-0 fb322px flex-grow-1 flex-shrink-1 shadow-0" >
+            <img src="./images/11.webp" class="card-img-top" alt="Chicago Skyscrapers"/>
+            <div class="card-body">
+              <h5 class="card-title">
+                Save up to $400 on Surface Laptop 5
+            </h5>
+              <p class="card-text"> Sophisticated style and multitasking speed powered by 12th Gen Intel® Core. Offer ends 6/18. </p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link mamad">
+                Shop Surface Laptop 5&nbsp;<i class="bi bi-chevron-right fs-12"></i>
+            </a>
+            </div>
+          </div>
+          <div class="card rounded-0 fb322px  flex-grow-1 flex-shrink-1 shadow-0" >
+            <img src="./images/9.webp" class="card-img-top" alt="Chicago Skyscrapers"/>
+            <div class="card-body">
+              <h5 class="card-title">
+                Power your dreams
+            </h5>
+              <p class="card-text"> Introducing Xbox Series S in Carbon Black, now with a 1 TB SSD. Experience next-gen speed and performance. </p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link mamad">
+                Pre-order now&nbsp;<i class="bi bi-chevron-right fs-12"></i>
+            </a>
+            </div>
+          </div>
+          
+        </div>
+    <!-- end div card -->
+
+    <!-- start div banner -->
+        <div class="banner h515 offset-1 offset-lg-0  col-10 px-5 py-5 col-lg-12 d-flex justify-content-center flex-row position-relative mb-14">
+          <a href="" class="d-block w-100 h-100">
+            <div class="card w-35 bg-transparent shadow-0 text-white position-absolute end-50 top30 left10 bgkheiliwhite siah">
+              <div class="card-body">
+                <h5 class="card-title fontsizeh1 mb-3">
+        
+                  Xbox Game Pass Ultimate
+              
+              
+          </h5>
+                <p class="card-text fontsizep mb-4">
+                  Xbox Live Gold and hundreds of high-quality console and PC games. Play together with friends and discover your next favorite game.
+              </p>
+                <button type="button" class="btn btn-primary fontsizep">
+                  Join now</button>
+              </div>
+            </div>
+          </a>
+        </div>
+    <!-- end div banner -->
+    <!-- start after banner -->
+    <div class="w-100 p-4 fontsizeh1  h-auto text-dark">For business</div>
+    <div class="w-100 p-3 p-md-4 h-auto d-flex flex-wrap flex-lg-nowrap justify-content-evenly gap-4">
+      <div class="card rounded-0 fb322px flex-grow-1 flex-shrink-1 shadow-0 ">
+        <img src="./images/16.jpg" class="card-img-top" alt="Chicago Skyscrapers"/>
+        <div class="card-body">
+          <h5 class="card-title">
+            
+            Surface Pro 9 for Business
+                            
+        </h5>
+          <p class="card-text">  Get next-level security with Surface Pro 9 for Business and Windows 11 Pro to help ensure your information is protected.  </p>
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link mamad">
+            
+            Shop now
+        &nbsp;<i class="bi bi-chevron-right fs-12"></i>
+        </a>
+        </div>
+      </div>
+      <div class="card rounded-0 fb322px flex-grow-1 flex-shrink-1 shadow-0" >
+        <img src="./images/17.webp" class="card-img-top" alt="Chicago Skyscrapers"/>
+        <div class="card-body">
+          <h5 class="card-title">
+            
+            Get Microsoft Teams for free
+                            
+        </h5>
+          <p class="card-text">  Online meetings, chat, and shared cloud storage—all in one place. </p>
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link mamad">
+            
+            Sign up for free
+        &nbsp;<i class="bi bi-chevron-right fs-12"></i>
+        </a>
+        </div>
+      </div>
+      <div class="card rounded-0 fb322px flex-grow-1 flex-shrink-1 shadow-0" >
+        <img src="./images/18.jpg" class="card-img-top" alt="Chicago Skyscrapers"/>
+        <div class="card-body">
+          <h5 class="card-title">
+           
+            Microsoft 365 Copilot
+                            
+        </h5>
+          <p class="card-text">  Discover a new way to work with next-gen AI embedded in the Microsoft 365 apps you use every day.  </p>
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link mamad fontsizep">
+            
+            Learn more about Microsoft 365 Copilot
+        &nbsp;<i class="bi bi-chevron-right fs-12"></i>
+        </a>
+        <br>
+          <a href="#" class="card-link mamad">
+            
+            
+            Explore Microsoft 365 for Business
+        
+        &nbsp;<i class="bi bi-chevron-right fs-12"></i>
+        </a>
+        </div>
+      </div>
+      <div class="card rounded-0 fb322px  flex-grow-1 flex-shrink-1 shadow-0" >
+        <img src="./images/19.jpg" class="card-img-top" alt="Chicago Skyscrapers"/>
+        <div class="card-body">
+          <h5 class="card-title">
+            
+            Power your dreams
+        
+        </h5>
+          <p class="card-text">  Introducing Xbox Series S in Carbon Black, now with a 1 TB SSD. Experience next-gen speed and performance. </p>
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link mamad">
+            Pre-order now&nbsp;<i class="bi bi-chevron-right fs-12"></i>
+        </a>
+        </div>
+      </div>
+      
+    </div> 
+    <!-- end after banner -->
     <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./mdb-ui-kit/js/mdb.min.js"></script>
 </body>

@@ -29,12 +29,67 @@
 .h542{
     height: 542px;
 }
-.topfuck{
-    top: 20%;
+.h300{
+    height: 300px;
 }
-.leftfuck{
+.w154h72{
+    width: auto;
+    height: 72px;
+}
+.w48h48{
+    width: 48px;
+    height: 48px;
+}
+.colorblue{
+    color: #0067b8;
+}
+.w322{
+    width: 322px !important;
+}
+.fb322px{
+    flex-basis: 322px;
+}
+
+div.afterslider>div:nth-of-type(1)>div{
+    background-image: url(../images/4.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div.afterslider>div:nth-of-type(2)>div{
+    background-image: url(../images/5.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div.afterslider>div:nth-of-type(3)>div{
+    background-image: url(../images/6.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div.afterslider>div:nth-of-type(4)>div{
+    background-image: url(../images/5.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div.afterslider>div:nth-of-type(5)>div{
+    background-image: url(../images/7.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div.afterslider>div:nth-of-type(6)>div{
+    background-image: url(../images/8.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.w-35{
+    width: 35%;
+}
+.top30{
+    top:30%;
+}
+.left10{
     left: 10%;
 }
+
 @font-face {
     font-family: microsoft;
     src: url(../fonts/SegoeUI-Semibold.eot);
@@ -58,6 +113,43 @@ html,body{
     }
     .fs-12{
         font-size: 12px !important;
+    }
+    .w570h316{
+        width: 570px;
+        height: 316px;
+    }
+    .fontsizeh1{
+        font-size: 40px;
+    }
+    .topfuck{
+        top: 20%;
+    }
+    .leftfuck{
+        left: 10%;
+    }
+    .fontsizep{
+        font-size: 18px;
+    }   
+    .fontsizebut{
+        font-size: 16px;
+    }
+    .h515{
+        height: 515px;
+    }
+    div.banner{
+        background-image: url(../images/12.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .w-35{
+        width: 35%;
+    }
+    .top30{
+        top:30%;
+    }
+    .left10{
+        left: 10%;
     }   
 }
 @media screen and (min-width:1200px) and (max-width:1400px){
@@ -73,6 +165,43 @@ html,body{
     .fs-12{
         font-size: 12px !important;
     }
+    .w570h316{
+        width: 470px;
+        height: 316px;
+    }
+    .fontsizeh1{
+        font-size: 35px;
+    }
+    .topfuck{
+        top: 20%;
+    }
+    .leftfuck{
+        left: 10%;
+    }
+    .fontsizep{
+        font-size: 16px;
+    }   
+    .fontsizebut{
+        font-size: 13px !important;
+    }
+    .h515{
+        height: 515px;
+    }
+    div.banner{
+        background-image: url(../images/13.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .w-35{
+        width: 35%;
+    }
+    .top30{
+        top:30%;
+    }
+    .left10{
+        left: 10%;
+    }
 }
 @media screen and (min-width:998px) and (max-width:1200px){
     .w-110-xxl{
@@ -86,6 +215,43 @@ html,body{
     }
     .fs-12{
         font-size: 12px !important;
+    }
+    .w570h316{
+        width: 370px;
+        height: 300px;
+    }
+    .fontsizeh1{
+        font-size: 20px;
+    }
+    .topfuck{
+        top: 20%;
+    }
+    .leftfuck{
+        left: 10%;
+    }
+    .fontsizep{
+        font-size: 14px;
+    }   
+    .fontsizebut{
+        font-size: 11px !important;
+    }
+    .h515{
+        height: 515px;
+    }
+    div.banner{
+        background-image: url(../images/13.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .w-35{
+        width: 35%;
+    }
+    .top30{
+        top:30%;
+    }
+    .left10{
+        left: 10%;
     }
 }
 @media screen and (min-width:768px) and (max-width:998px){
@@ -102,6 +268,52 @@ html,body{
     .fs-12{
         font-size: 11px !important;
     }
+    .w570h316{
+        width: 300px;
+        height: 200px;
+    }
+    .fontsizeh1{
+        font-size: 18px;
+    }
+    .topfuck{
+        top: 5%;
+    }
+    .leftfuck{
+        left: 0;
+    }
+    .fontsizep{
+        font-size: 12px;
+    }   
+    .fontsizebut{
+        font-size: 9px !important;
+    }
+    .bgwhite{
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .h515{
+        height: 515px;
+    }
+    div.banner{
+        background-image: url(../images/14.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .w-35{
+        width: 95%;
+    }
+    .top30{
+        top:80%;
+    }
+    .left10{
+        left: 2%;
+    }
+    .bgkheiliwhite{
+        background-color: white !important;
+    }
+    .siah{
+        color: black !important;
+    }
 }
 @media screen and (min-width:576px) and (max-width:768px){
     .yoho{
@@ -111,6 +323,48 @@ html,body{
     .fs-12{
         font-size: 11px !important;
     }
+    .topfuck{
+        top: 80%;
+    }
+    .leftfuck{
+        left: 0;
+    }
+    .fontsizeh1{
+        font-size: 16px;
+    }
+    .bgwhite{
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .fontsizep{
+        font-size: 14px;
+    }   
+    .fontsizebut{
+        font-size: 10px !important;
+    }
+    .h515{
+        height: 515px;
+    }
+    div.banner{
+        background-image: url(../images/14.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .w-35{
+        width: 95%;
+    }
+    .top30{
+        top:80%;
+    }
+    .left10{
+        left: 2%;
+    }
+    .bgkheiliwhite{
+        background-color: white !important;
+    }
+    .siah{
+        color: black !important;
+    }
 }
 @media screen and (max-width:576px){
     .yoho{
@@ -119,5 +373,47 @@ html,body{
     }
     .fs-12{
         font-size: 8px !important;
+    }
+    .topfuck{
+        top: 80%;
+    }
+    .leftfuck{
+        left: 0;
+    }
+    .fontsizeh1{
+        font-size: 14px;
+    }
+    .bgwhite{
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .fontsizep{
+        font-size: 13px;
+    }   
+    .fontsizebut{
+        font-size: 10px !important;
+    }
+    .h515{
+        height: 515px;
+    }
+    div.banner{
+        background-image: url(../images/15.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .w-35{
+        width: 100%;
+    }
+    .top30{
+        top:80%;
+    }
+    .left10{
+        left: 0%;
+    }
+    .bgkheiliwhite{
+        background-color: white !important;
+    }
+    .siah{
+        color: black !important;
     }
 }
