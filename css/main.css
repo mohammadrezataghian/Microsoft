@@ -95,6 +95,9 @@ div.afterslider>div:nth-of-type(6)>div{
 .fsli{
     font-size: 14px;
 }
+.fs12{
+    font-size: 12px;
+}
 @font-face {
     font-family: microsoft;
     src: url(../fonts/SegoeUI-Semibold.eot);
